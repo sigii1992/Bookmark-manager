@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
+require './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions
@@ -8,11 +9,10 @@ class BookmarkManager < Sinatra::Base
     register Sinatra::Reloader
   end
 
-  get '/' do
-    'Hello world!'
+  get '/bookmarks' do
+    @bookmarks = Bookmark.all
+    erb :'bookmarks/index'
   end
-
-
 
 
 
