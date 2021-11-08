@@ -1,9 +1,15 @@
 # bookmark_manager
 
-User story 1
+### User story 1
 As a user
 So that I can see what webpages are available to choose from
 I'd like to be able to view a bookmark list
+
+### User story 2
+As a user
+So that I can save a website
+I would like to add the site's address and title to bookmark manager
+
 
 Domain model for first user story:
 
