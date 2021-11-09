@@ -17,7 +17,7 @@ Domain model for first user story:
 
 ### To set up database:
 
-* Connect to psql
-* Create the database using the psql command CREATE DATABASE bookmark_manager;
-* Connect to the database using the psql command \c bookmark_manager;
+* Connect to `psql`.
+* Create the database using the `psql` command `CREATE DATABASE bookmark_manager;`
+* Connect to the database using the `psql` command `\c bookmark_manager`;
 * Run the query I have saved in the file 01_create_bookmarks_table.sql in the `db/migrations` folder.
