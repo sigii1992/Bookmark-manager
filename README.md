@@ -10,6 +10,10 @@ As a user
 So that I can save a website
 I would like to add the site's address and title to bookmark manager
 
+### User story 3
+As a user
+So I can see see can store bookmark data
+I want to add a bookmark to Bookmark Manager
 
 Domain model for first user story:
 
@@ -18,6 +22,6 @@ Domain model for first user story:
 ### To set up database:
 
 * Connect to `psql`.
-* Create the database using the `psql` command `CREATE DATABASE bookmark_manager;`
-* Connect to the database using the `psql` command `\c bookmark_manager`;
+* Create the database using the `psql` command `CREATE DATABASE bookmark_manager;`, `CREATE DATABASE bookmark_manager_test;`
+* Connect to the database using the `psql` command `\c bookmark_manager` and `\c bookmark_manager_test`;
 * Run the query I have saved in the file 01_create_bookmarks_table.sql in the `db/migrations` folder.

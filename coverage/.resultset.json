@@ -6,13 +6,6 @@
           1,
           null,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           1,
           1,
@@ -27,6 +20,29 @@
           1,
           1,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sigitaz/Documents/Projects/bookmark_manager/spec/features/add_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -35,7 +51,6 @@
         "lines": [
           1,
           null,
-          1,
           1,
           1,
           null,
@@ -52,6 +67,6 @@
         ]
       }
     },
-    "timestamp": 1636557743
+    "timestamp": 1636565373
   }
 }
