@@ -1,4 +1,4 @@
-<ul>
+<ul style="list-style-type:none;">
   <% @bookmarks.each do |bookmark| %>
     <li class="bookmark" id="bookmark-<%= bookmark.id %>">
       <a href="<%= bookmark.url %>" target="_blank">
@@ -10,4 +10,6 @@
       </form>
     </li>
   <% end %>
-</ul>
+
+<a href="/bookmarks/new">Add new bookmark</a>
+ 
