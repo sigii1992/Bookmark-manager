@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Bookmark manager</title>
+    <title>Code coverage for Bookmark-manager</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-11-11T16:12:36+00:00">2021-11-11T16:12:36+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-11-11T17:28:54+00:00">2021-11-11T17:28:54+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  100.0%
+  92.86%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="yellow">
-         1.0
+       <span class="red">
+         0.93
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>3</b> files in total.
+    <b>4</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>34</b> relevant lines,
-    <span class="green"><b>34</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed. </span>
+    <b>42</b> relevant lines,
+    <span class="green"><b>39</b> lines covered</span> and
+    <span class="red"><b>3</b> lines missed. </span>
     (<span class="green">
-  100.0%
+  92.86%
 </span>
 )
   </div>
@@ -71,7 +71,7 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#c748c173b557a7c3237e762362c0f356aa379471" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#5f150eecdf8e7411f0bbfbd4da1977ae537f48bb" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">28</td>
             <td class="cell--number">16</td>
@@ -82,7 +82,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#2353c7284b55bdc3623458c539423ebecdeda211" class="src_link" title="spec/features/add_bookmarks_spec.rb">spec/features/add_bookmarks_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#97493019d6d2478030be37d33b940f863467dbb8" class="src_link" title="spec/features/add_bookmarks_spec.rb">spec/features/add_bookmarks_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">11</td>
             <td class="cell--number">8</td>
@@ -93,7 +93,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#97ff2ce9cd2f995b5729ae6c02f59701fdc8c327" class="src_link" title="spec/features/viewing_bookmarks_spec.rb">spec/features/viewing_bookmarks_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#4237d1a315b7a46dc100f34f76d21b256638ea93" class="src_link" title="spec/features/deleting_bookmark_spec.rb">spec/features/deleting_bookmark_spec.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">62.50 %</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">0.63</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#421cd8e8dc2c8a04f4e0b4559918fe3461e25224" class="src_link" title="spec/features/viewing_bookmarks_spec.rb">spec/features/viewing_bookmarks_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">15</td>
             <td class="cell--number">10</td>
@@ -120,7 +131,7 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="c748c173b557a7c3237e762362c0f356aa379471">
+        <div class="source_table" id="5f150eecdf8e7411f0bbfbd4da1977ae537f48bb">
   <div class="header">
     <h3>spec/bookmark_spec.rb</h3>
     <h4>
@@ -459,7 +470,7 @@
 </div>
 
       
-        <div class="source_table" id="2353c7284b55bdc3623458c539423ebecdeda211">
+        <div class="source_table" id="97493019d6d2478030be37d33b940f863467dbb8">
   <div class="header">
     <h3>spec/features/add_bookmarks_spec.rb</h3>
     <h4>
@@ -611,7 +622,214 @@
 </div>
 
       
-        <div class="source_table" id="97ff2ce9cd2f995b5729ae6c02f59701fdc8c327">
+        <div class="source_table" id="4237d1a315b7a46dc100f34f76d21b256638ea93">
+  <div class="header">
+    <h3>spec/features/deleting_bookmark_spec.rb</h3>
+    <h4>
+      <span class="red">
+  62.5%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>8</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>3</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">feature &#39;Deleting a bookmark&#39; do </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  scenario &#39;User can delete a bookmark&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    Bookmark.create(url: &quot;http://www.makersacademy.com/&quot;, title: &quot;Makers Academy&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit(&#39;/bookmark&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_link(&#39;Makers Academy&#39;, href: &#39;http://makersacademy.com&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">    first(&#39;.bookmark&#39;).click_button &#39;Delete&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">    expect(current_path).to eq &#39;/bookmarks&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    expect(page).not_to have_link(&#39;Makers Academy&#39;, href: &#39;http://makersacademy.com&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="421cd8e8dc2c8a04f4e0b4559918fe3461e25224">
   <div class="header">
     <h3>spec/features/viewing_bookmarks_spec.rb</h3>
     <h4>

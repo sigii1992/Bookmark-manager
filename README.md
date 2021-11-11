@@ -12,8 +12,13 @@ I would like to add the site's address and title to bookmark manager
 
 ### User story 3
 As a user
-So I can see see can store bookmark data
+So I can store bookmark data
 I want to add a bookmark to Bookmark Manager
+
+### User story 4
+As a user
+So I can remove bookmarks from bookmark manager
+I want to delete a bookmarks
 
 Domain model for first user story:
 
